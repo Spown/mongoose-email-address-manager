@@ -1,1 +1,1 @@
-exports = module.exports = require('./lib/mongoose-email-address-manager');
+exports = module.exports = require('./lib/mongoose-email-address-manager.js');
