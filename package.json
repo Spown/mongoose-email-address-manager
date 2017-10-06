@@ -1,11 +1,11 @@
 {
   "name": "mongoose-email-address-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage multiple email addresses per user (or other model/doc) with this mongoose schema plugin.",
   "main": "./index.js",
   "scripts": {
     "test": "npm run test:unit",
-    "test:unit": "mocha --opts ./mocha.opts ./*/__tests__/*.spec.js",
+    "test:unit": "mocha --opts ./mocha.opts ./lib/__tests__/index.spec.js",
     "test:unit:watch": "mocha -w --opts ./mocha.opts ./*/__tests__/*.spec.js"
   },
   "repository": {
